@@ -4,6 +4,8 @@ namespace ModSystem
     {
         PrimaryWeapon,
         SecondaryWeapon,
-        MeeleeWeapon
+        MeeleeWeapon,
+        Companion,
+        Warframe
     }
 }

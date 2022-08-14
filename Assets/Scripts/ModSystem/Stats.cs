@@ -12,6 +12,13 @@ namespace ModSystem
         {
             public string name;
             public float value;
+            public StatType statType;
+        }
+
+        public enum StatType
+        {
+            Additive,
+            Percent
         }
         
         public Stat[] fields;
