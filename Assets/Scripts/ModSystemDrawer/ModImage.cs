@@ -10,7 +10,7 @@ namespace ModSystemDrawer
 {
     public class ModImage : MonoBehaviour
     {
-        public UnityEvent<ModImage> OnImageSelected = new();
+        public UnityEvent<ModImage> OnImageSelected;
         [SerializeField]
         private Image img;
         [SerializeField]
