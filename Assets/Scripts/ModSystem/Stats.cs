@@ -10,9 +10,16 @@ namespace ModSystem
         [Serializable]
         public struct Stat
         {
-            public string name;
+            public StatName name;
             public float value;
             public StatType statType;
+        }
+
+        public enum StatName
+        {
+            BaseDmg,
+            CritChance,
+            CritMultiplier
         }
 
         public enum StatType

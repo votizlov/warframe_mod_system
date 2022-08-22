@@ -1,3 +1,16 @@
 {
-	"name": "AttackSystem"
+    "name": "AttackSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:488c9aedb9c39d545aca7691247161dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

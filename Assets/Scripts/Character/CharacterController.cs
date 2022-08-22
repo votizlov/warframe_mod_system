@@ -5,17 +5,20 @@ namespace Character
 {
     public class CharacterController : MonoBehaviour
     {
-        private IState initialState;
-        // Start is called before the first frame update
+        private IState _initialState;
         void Start()
         {
-        
+            _initialState = new EmptyState();
         }
 
-        // Update is called once per frame
         void Update()
         {
-            initialState.OnUpdate(this);
+            _initialState.OnUpdate(this);
+        }
+
+        public void TogglePlayerControl()
+        {
+            
         }
     }
 }

@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: StatsData
   m_EditorClassIdentifier: 
   fields:
-  - name: damage
+  - name: 0
     value: 10
-  - name: crit_chance
+    statType: 0
+  - name: 1
     value: 0.3
-  - name: crit_multiplier
+    statType: 0
+  - name: 2
     value: 2
+    statType: 0
